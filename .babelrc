@@ -1,0 +1,22 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": false,
+        "targets": {
+          "browsers": [
+            "> 1%",
+            "last 4 versions",
+            "not ie < 9",
+            "chrome >= 40",
+            "safari >= 8"
+          ]
+        }
+      }
+    ], "@babel/preset-react"
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-object-rest-spread",
+  ]
+}

@@ -1,0 +1,19 @@
+# system
+.DS_STORE
+
+# editor
+.idea
+.vscode
+
+# nodejs
+node_modules
+
+# project
+# /dist/
+/build/
+
+*.log
+*.lock
+
+package-lock.json
+
